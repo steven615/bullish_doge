@@ -991,7 +991,7 @@ body.header-below:not(.template-slider) #Header{min-height:0}
 	#Top_bar .secondary_menu_wrapper{display:none;}
 
 	/* Menu responsive */
-	#Top_bar a.responsive-menu-toggle{display:none;position:absolute;right:20px;top:50%;margin-top:-17px;width:34px;height:34px;text-align:center;border-radius:3px;z-index:200;}
+	#Top_bar a.responsive-menu-toggle{display:none;position:absolute;right:20px;top:50%;width:34px;height:34px;text-align:center;border-radius:3px;z-index:200;}
 	#Top_bar a.responsive-menu-toggle i{font-size:22px;line-height:34px}
 	#Top_bar a.responsive-menu-toggle span{float:right;padding:10px 5px;line-height:14px}
 
@@ -1237,7 +1237,7 @@ body.header-below:not(.template-slider) #Header{min-height:0}
 .header-split #Header .top_bar_left{width:100%!important}
 .header-split #Header .top_bar_left,.header-split #Header .top_bar_right{background-color:transparent}
 .header-split #Header .top_bar_left .menu_wrapper{width:100%}
-.header-split #Header .top_bar_left .menu_left{float:left;width:38%;text-align:center}
+.header-split #Header .top_bar_left .menu_left{float:left;width:38%;}
 .header-split #Header .top_bar_left .menu_right{float:right;width:38%;text-align:center}
 .header-split #Header .top_bar_left .menu > li{display:inline-block;float:none}
 .header-split #Header .top_bar_left .menu li ul li a{padding:10px}
