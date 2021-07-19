@@ -3414,12 +3414,6 @@ textarea:focus {
   border-color: #4d160f !important;
 }
 
-@media only screen and (min-width: 768px) {
-  .header-semi #Top_bar:not(.is-sticky) {
-    background-color: rgba(247, 213, 77, 0.8);
-  }
-}
-
 @media only screen and (max-width: 767px) {
   #Top_bar {
     background-color: #f7d54d !important;
@@ -3534,4 +3528,143 @@ form input.display-none {
   .elementor-754 .elementor-element.elementor-element-7cafdc2 .fa-telegram-plane {
     font-size: 45px;
   }
+}
+
+.rewards {
+  background: #EBDDCD;
+  padding: 0 20px 60px;
+}
+
+.rewards .elementor-element-77377ec {
+  text-align: center;
+}
+
+.rewards .subscribe {
+  background   : #eae2cf;
+  color        : #000;
+  border       : 1px solid #271F1B;
+  height       : 50px;
+  border-radius: 5px;
+}
+
+#inputWalletAddress {
+  border: 0;
+  background: transparent;
+  outline: 0;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+#inputWalletAddressSubmit {
+  border: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.p-5 {
+  padding: 48px;
+}
+
+.pr-3 {
+  padding-right: 16px;
+}
+
+.wallet-box {
+  border-radius: 20px;
+  border       : 1px solid #271F1B;
+  margin-bottom: 50px;
+  text-align   : center;
+}
+
+.wallet .fas, .wallet .far {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+	.wallet {
+		width: 45%;
+	}
+}
+
+@media (max-width: 768px) {
+	.wallet {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.wallet-box.paid img {
+		width: 200px;
+	}
+
+	.wallet-box.paid .wallet-title {
+		font-weight: bold;
+		font-size: 30px;
+	}
+
+	.wallet-box.paid .wallet-description {
+		font-size: 24px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 992px) {
+	.wallet-box.paid {
+		padding: 20px;
+	}
+	.wallet-box.paid img {
+		width: 100px;
+    height: 100px;
+    padding: 0;
+	}
+
+	.wallet-box.paid .wallet-title {
+		font-weight: bold;
+		font-size: 24px;
+	}
+
+	.wallet-box.paid .wallet-description {
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 580px) {
+	.wallet-box.paid .wallet-title {
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	.wallet-box.paid .wallet-description {
+		font-size: 14px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+* {
+  box-sizing: border-box;
 }

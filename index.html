@@ -1119,14 +1119,6 @@
 
       setTimeout(function () { removeCopiedMessage(language, id); }, 1500);
     }
-    function showCopiedMessage(language, id) {
-      const button = document.querySelector("#" + id + " .elementor-button-text");
-      button.innerHTML = language == "en" ? "COPIED" : "已复制";
-    }
-    function removeCopiedMessage(language, id) {
-      const button = document.querySelector("#" + id + " .elementor-button-text");
-      button.innerHTML = language == "en" ? "COPY" : "复制";
-    }
   </script>
   <script type='text/javascript' src='./assets/js/wp-embed.min.js' id='wp-embed-js'></script>
   <script type='text/javascript' src='./assets/plugins/elementor/js/webpack.runtime.min.js'
