@@ -1513,20 +1513,20 @@
 
     $('.downcount').each(function () {
       var el = $(this);
-      // el.downCount({
-      //   date: el.attr('data-date'),
-      //   offset: el.attr('data-offset')
-      // });
-      var now = new Date().getTime();
-      var targetDate = new Date(now + (1000 * 60 * 60 * 2));
-      var timezoneOffset = targetDate.getTimezoneOffset();
-      var offset = (Math.abs(timezoneOffset / 60)).toString();
+      el.downCount({
+        date: el.attr('data-date'),
+        offset: el.attr('data-offset')
+      });
+      // var now = new Date().getTime();
+      // var targetDate = new Date(now + (1000 * 60 * 60 * 2));
+      // var timezoneOffset = targetDate.getTimezoneOffset();
+      // var offset = (Math.abs(timezoneOffset / 60)).toString();
       
-      var month = targetDate.getMonth() + 1;
-      var seconds = targetDate.getSeconds();
-      var date = `${month > 10 ? '' : '0'}${month}/${targetDate.getDate()}/${targetDate.getFullYear()} ${targetDate.getHours()}:${targetDate.getMinutes()}:${seconds > 10 ? '' : '0'}${seconds}`;
+      // var month = targetDate.getMonth() + 1;
+      // var seconds = targetDate.getSeconds();
+      // var date = `${month > 10 ? '' : '0'}${month}/${targetDate.getDate()}/${targetDate.getFullYear()} ${targetDate.getHours()}:${targetDate.getMinutes()}:${seconds > 10 ? '' : '0'}${seconds}`;
 
-      el.downCount({date, offset});
+      // el.downCount({date, offset});
     });
 
     /**

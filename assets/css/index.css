@@ -3560,6 +3560,7 @@ form input.display-none {
 #inputWalletAddressSubmit {
   border: 0;
   border-radius: 0 4px 4px 0;
+  padding-top: 13px;
 }
 
 .d-flex {
